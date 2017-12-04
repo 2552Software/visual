@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.3)
+project( FullTimeParty )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( FullTimeParty source.cpp )
+target_link_libraries( DisplayImage ${OpenCV_LIBS} )
