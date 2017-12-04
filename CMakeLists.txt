@@ -2,10 +2,10 @@ cmake_minimum_required(VERSION 3.3)
 project(Project1)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-set(CMAKE_PREFIX_PATH "c:\OpenCV3")
+set(CMAKE_PREFIX_PATH "c:\\OpenCV3")
 
-set(OpenCV_INCLUDE_DIRS "C:\OpenCV3\build\include")
-set(OpenCV_LIBS "C:\OpenCV3\build\x64\vc14\lib")
+set(OpenCV_INCLUDE_DIRS "C:\\OpenCV3\\build\\include")
+set(OpenCV_LIBS "C:\\OpenCV3\\build\\x64\vc14\\lib")
 
 set(SOURCE_FILES source.cpp)
 
